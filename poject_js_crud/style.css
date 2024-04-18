@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+body{
+    background-color: #222;
+    color: #fff;
+}
+button{
+    background-color: #470053;
+    color: #fff;
+    transition: all .3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+}
+button:hover{
+    background-color: #51045f;
+    letter-spacing: 2px;
+}
+.continer{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.titl{
+    color: aliceblue;
+    padding: 5px 0 ;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.titl p {
+    font-size: 20px;
+    font-weight: 500;
+}
+input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color:#111 ;
+    color: aliceblue;
+    height: 30px;
+    font-size: 25px;
+    margin: 5px 0 ;
+    border-radius: 10px;
+
+}
+input:focus{
+    transform: scale(1.1);
+    background-color: rgb(0, 0, 0);
+}
+
+.allprises input{
+    width: 20%;
+    margin-left: 10px;
+
+
+
+}
+
+.allprises{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+    
+
+}
+small{
+    background-color: rgb(238, 74, 74);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-left: 10px;
+    height: max-content;
+    width: 15%;
+    padding: 5px ;
+    transition: all  .3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+small::before{
+    content: "total: ";
+}
+small:hover{
+    background-color: rgb(197, 166, 166);
+    transform: scale(1.1);
+}
+#submit{
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+    border:none;
+    height: max-content;
+    padding: 5px;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+/* _________outbuts_____ */
+
+.classtosearch{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.classtosearch button{
+
+    width: 45%;
+    height: max-content;
+    padding: 5px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+
+
+
+}
+table{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    
+
+
+    
+}
+table {
+    background-color: #f7f4f833;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 10px ;
+}
+table th{
+    padding: 20px 0;
+    font-size: 25px;
+
+}
+
+table tr td{
+    padding: 20px 0;
+    font-size: 22px;
+
+
+
+}
+table button{
+    padding: 10px;
+    font-size: 23px;
+}
+table button:hover{
+    letter-spacing: 0;
+}
+#deletall button{
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+    border:none;
+    height: max-content;
+    padding: 5px;
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+
